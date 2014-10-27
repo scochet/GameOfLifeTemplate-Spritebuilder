@@ -29,7 +29,7 @@ static const int GRID_COLUMNS = 10;
 
 -(void)setupGrid {
     _cellWidth = self.contentSize.width / GRID_COLUMNS;
-    _cellHeight = self.contentSize.width / GRID_ROWS;
+    _cellHeight = self.contentSize.height / GRID_ROWS;
     
     float x = 0;
     float y = 0;
